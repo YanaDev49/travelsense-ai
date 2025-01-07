@@ -1,0 +1,445 @@
+body {
+    background: linear-gradient(to bottom, #007F5C, #A3D9C5);
+    font-family: Sans-serif, Verdana;
+    background-attachment: fixed; /* Ensures gradient stays fixed on scroll */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-size: cover; /* Ensure the gradient covers the whole page */
+    margin: 100;
+    padding: 10;
+    text-align: center;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+}
+
+header img {
+    max-width: 150px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+form label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+form input {
+    padding: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0055AA;
+}
+
+
+#user_id {
+    transition: width 0.4s ease-in-out;
+    border: 0;
+    outline: 0;
+    background: #bfdada;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;  
+}
+
+#user_id:focus {
+    width: 100%;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+  
+  /* .navbar {
+    background-color: white;
+    padding: 1rem;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+  } */
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Navbar Container */
+  .navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+
+  /* Logo Section */
+  .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo img {
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .logo-name {
+    font-size: 12px;
+    color: #0b0c0c;
+    font-weight: bold;
+  }
+
+  /* Navigation Links */
+  .nav-links {
+    margin-left: auto;
+    display: flex;
+    gap: 40px;
+    right: 20%;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+  }
+
+  .nav-links a:hover {
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+    border-color: rgba(0, 0, 0, 0.1); /* Optional: Add a faint border */
+    cursor: pointer; /* Pointer cursor for hover effect */
+    border-radius: 1px; /* Optional: Rounded corners */
+    background-color: #f0eaea; /* Optional: Slight background color change */
+    color: #333; /* Optional: Change text color */
+  }
+
+  /* Sign In and Menu */
+  .nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  .menu-icon div {
+    height: 3px;
+    background: black;
+    border-radius: 2px;
+  }
+
+  .sign-in {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+
+/* I had an issue with my user icon and resized it using my resize tag and adjusted height and width */
+  .resize {
+    width:30px;
+    height:30px;
+}
+
+/* styles.css */
+
+.results-body {
+  background-image: url("/static/images/blue.jpg");
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.robot-image {
+  width: 150px;
+  margin: 20px auto;
+}
+
+.button-primary {
+  background-color: #17EAD9;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-primary:hover {
+  background-color: #007BFF;
+  transform: scale(1.05);
+}
+
+#questionnaire-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+h3 {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+.question-button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question-button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-fade-in {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+.itinerary-section {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+
+/* General Styles for the Itinerary Page */
+body.itinerary-body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#itinerary-wrapper {
+  width: 100%;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.itinerary-section,
+#ending-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Parallax Backgrounds */
+.itinerary-section[data-bg],
+#ending-section[data-bg] {
+  background-image: url('');
+}
+
+/* JavaScript will dynamically set the background image based on data-bg attribute */
+.itinerary-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(50px);
+  animation: floatIn 2s forwards;
+}
+
+/* Float-in animation for content */
+@keyframes floatIn {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+#ending-section h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+}
+
+/* Train Animation */
+#train-animation {
+  width: 200px;
+  height: 100px;
+  background: url('/static/images/train.png') no-repeat center/contain;
+  animation: moveTrain 3s infinite;
+}
+
+@keyframes moveTrain {
+  0% {
+      transform: translateX(-200%);
+  }
+  100% {
+      transform: translateX(200%);
+  }
+}
+
+#confetti {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  animation: confettiFall 3s ease-out infinite;
+}
+
+@keyframes confettiFall {
+  from {
+      transform: translateY(-100%);
+  }
+  to {
+      transform: translateY(100%);
+  }
+}
+
+.ending-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+  color: black; /* Change text color to black */
+  text-shadow: none; /* Remove text shadow for better contrast */
+  font-size: 2rem; /* Optional: Ensure font size is appropriate */
+  background: rgba(52, 207, 176, 0.9); /* White box with slight transparency */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 80%; /* Take up 80% of the screen width */
+  text-align: center; /* Center the text */
+  animation: floatIn 1.5s ease-out; /* Smooth entry animation */
+}
+

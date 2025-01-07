@@ -1,0 +1,3 @@
+user_id,origin,destination,cheapest_fare,student_discount,fastest_route,refundable_tickets,sleeper_trains,first_class,short_trips_preferred,step_free_access,priority_boarding,updates_delays_cancellations
+Trainliner,London,Manchester,True,True,True,True,True,True,True,False,False,True
+Trainliner,London,Milan,True,True,True,True,True,True,True,False,False,True

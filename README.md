@@ -1,7 +1,15 @@
 # 𝖳𝖺𝗂𝗅𝗈𝗋𝖾𝖽-𝗅𝗂𝗇𝖾 𝖠𝖨 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖡𝗒 𝖠𝖺𝗅𝗂𝗒𝖺𝗇𝖺 𝖠𝖽𝗈𝗅𝖾𝗒 𝖬𝗂𝗇𝗀𝗅𝖾 - 𝖳𝗋𝖺𝗂𝗇𝗅𝗂𝗇𝖾 ![Build Passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
-![Python](https://img.shields.io/badge/python-3.12-blue?style=flat-square)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-orange?style=flat-square)
+![Flask](https://img.shields.io/pypi/v/Flask?label=Flask&style=flat-square&logo=flask&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-InMemory%20Database-red?style=flat-square)
+![Model](https://img.shields.io/badge/Model-v1.0-0078D4?style=flat-square&logo=codeforces&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+
+
 
 ![alt text](image-15.png)
 
@@ -35,7 +43,7 @@ Let’s take a closer look at Ruby’s experience with Tailored-line AI and how 
 
 ##
 
-## Ruby's Tailored Experience 🌐
+## Ruby's Tailored Experience 🧭
 
 ![alt text](image-4.png)
 
@@ -89,7 +97,59 @@ Tailored-line isn’t just an additional feature for trainline services. It’s 
 
 Ultimately, people may not remember what a service did for them, but how the service made them feel and the lengths gone to create that impact (like it did for Ruby 😊).
 
-### Now, Lets Dive into the technical Components of Tailored-line and how the technologies I used assemble together to create this solution
+# How Hypothesis-Driven Development became the backbone of Tailored-line 🔍🧩
 
+![alt text](image-16.png)
+
+Software development often involves a degree of **uncertainty**. Developers strive to solve problems and build features that meet user needs, but it’s all too easy to fall into the trap of building for **assumptions** rather than facts. 🔍
+
+I first encountered the concept of **Hypothesis-Driven Development (HDD)** while reading a blog post on Trainline’s Medium channel titled *"Lessons from Hypothesis-Driven Development."* The post discussed how **HDD** had become a core practice within Trainline's **Conversion Rate Optimisation (CRO)** team, which I found very interesting. 📚
+
+After reading this, I began to reflect on my own development process and asked myself, *'How can I implement this solution within Tailored-line?'* It struck me that using **HDD** could provide a more **systematic** and **pragmatic** way to ensure that my feature was truly aligned with **user needs** at Trainline and delivered **meaningful value**. 💡
+
+Following this, I started researching the impact of **tailored** and **personalised** features on **user engagement**. A study titled *"Validation of User Preferences and Effects of Personalized Gamification"* found that **software features reflecting user preferences significantly improve engagement and task performance**. Participants using **personalised settings** reported a more enjoyable experience and showed higher interaction rates. 📊
+
+For Tailored-line, having a **questionnaire** to gather data about users' **travel preferences** and syncing itineraries with their **past travel history** can improve **engagement**. This approach enhances the **relevance** of travel recommendations and creates a more **seamless**, **personalised travel experience**. ✈️
+
+**[Link to study](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2020.00029/full)** 📎
+
+This research helped me foresee how **Tailored-line** could **positively impact Trainline’s customers**. By going the extra mile to ensure that each **itinerary recommendation** was **thoughtfully tailored** to individual preferences, the app wouldn’t just meet **user needs** but would create **moments of delight**. It became clear to me that **HDD** wasn’t just a method to improve **accuracy**—it was a way to embed **empathy** into development. ✨
+
+The process of applying **HDD** to **Tailored-line** has been a **transformative experience**. It taught me to think more **critically** about the **purpose** behind every feature I develop. It also showed me that by taking a **hypothesis-driven approach**, we can build more **meaningful products** that **resonate with users on a deeper level**. 💻
+
+
+### Now, Lets dive into the technical Components of Tailored-line and how the technologies I used assemble together to create this solution!
 #
 
+# 📝 Technologies I used for Tailored-line 📋
+
+### These are the core technologies used to build and run the application itself:
+
+| **Technologies**            | **Description**                          |
+|-----------------------------|------------------------------------------|
+| 🐍 **Python Flask**          | I used Flask to build the backend of my app, handling the user questionnaire and generating personalised itineraries based on the data collected. |
+| 📦 **Redis**                 | Redis is used to store the answers from my questionnaire and manage session data, ensuring quick access to user responses and improving the app’s performance. |
+| 📜 **JavaScript**            | I used JavaScript to make the frontend interactive and responsive, allowing users to smoothly complete the questionnaire and view their personalised itineraries. |
+| 🧠 **Model**                 | I developed a model that processes user responses from the questionnaire to generate personalised itineraries tailored to Trainline user preferences. |
+| 🌐 **HTML**                  | HTML structures the content of my app’s user interface, making it straightforward for users to navigate through the questionnaire and results. |
+| 🎨 **CSS**                   | CSS styles the user interface, ensuring the app looks clean, modern, and visually appealing. |
+| 🐳 **Docker Compose**        | I used Docker Compose to manage both the app and its dependencies, such as Redis, making it simple to deploy my application consistently across different environments. |
+| 🛠️ **Docker**                | Docker allowed me to containerise my app, ensuring it runs smoothly and reliably on any system without compatibility issues. |
+
+# 
+
+# Local App Set up 🖥️
+
+### Build and run our containers 🐳
+```
+ docker-compose --build
+```
+This command builds the images for my multi-container Trainline app as defined in the docker-compose.yml file. It reads the Dockerfile for each service, such as my Flask app and Redis, and creates the necessary images to run the application.
+```                        
+docker-compose up
+```
+This command builds the images and starts the containers in one step. In this app, if I’ve made changes to the Dockerfile or any dependencies, this command ensures the images are rebuilt before the app starts running.
+## How to Access The Application 🚀
+### Open your browser and navigate to this web link after running the docker containers: http://127.0.0.1:5000/
+
+#### You will be greeted with a beautiful and sleek Welcome page Ready for you to experience Tailored-line 😊

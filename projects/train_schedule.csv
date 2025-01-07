@@ -1,0 +1,13 @@
+origin,destination,departure_date,departure_time,train_class,average_price
+London Euston,Milan Centrale,2024-12-01,08:00,Standard,120
+London Euston,Milan Centrale,2024-12-01,08:00,First Class,180
+London Euston,Milan Centrale,2024-12-01,10:00,Standard,130
+London Euston,Milan Centrale,2024-12-01,10:00,First Class,200
+London St Pancras,Milan Centrale,2024-12-01,09:30,Standard,150
+London St Pancras,Milan Centrale,2024-12-01,09:30,First Class,220
+London Euston,Milan Centrale,2024-12-02,08:00,Standard,115
+London Euston,Milan Centrale,2024-12-02,08:00,First Class,190
+London Euston,Milan Centrale,2024-12-02,10:00,Standard,125
+London Euston,Milan Centrale,2024-12-02,10:00,First Class,205
+London St Pancras,Milan Centrale,2024-12-02,09:30,Standard,140
+London St Pancras,Milan Centrale,2024-12-02,09:30,First Class,210

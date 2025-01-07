@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Personalised Itinerary</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/scripts.js" defer></script>
+</head>
+<body class="itinerary-body">
+    <!-- Navbar/Header -->
+    <div class="navbar">
+        <!-- Logo Section -->
+        <div class="logo">
+            <a href="#">
+                <img src="/static/images/text.png" alt="Trainline Logo">
+            </a>
+            <span class="logo-name">Aaliyana Adoley Mingle</span>
+        </div>
+    
+        <!-- Navigation Links -->
+        <div class="nav-links">
+            <a href="#">Business</a>
+            <a href="#">Basket</a>
+            <a href="#">My Bookings</a>
+            <a href="#">Register</a>
+        </div>
+    
+        <!-- Actions Section -->
+        <div class="nav-actions">
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+    
+            <!-- Sign In Button -->
+            <div class="sign-in">
+                <img src="/static/images/information.png" class="resize" alt="Info Icon">
+            </div>
+        </div>
+    </div>
+
+    <div id="itinerary-wrapper">
+        <!-- Welcome Message Box -->
+        <div id="welcome-section" class="welcome-box">
+            <h1>Welcome to your perfect itinerary, {{ itinerary.greeting }}</h1>
+        </div>
+
+        <section class="itinerary-section" id="places-section" data-bg="/static/images/milan.jpg">
+            <div class="itinerary-box">
+                <h2>Places to Visit</h2>
+                <ul>
+                    {% for place in itinerary.places %}
+                    <li>{{ place }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+
+        <section class="itinerary-section" id="dining-section" data-bg="/static/images/eat.jpg">
+            <div class="itinerary-box">
+                <h2>Dining Recommendations</h2>
+                <ul>
+                    {% for restaurant in itinerary.restaurants %}
+                    <li>{{ restaurant }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+
+        <section class="itinerary-section" id="stations-section" data-bg="/static/images/station.jpg">
+            <div class="itinerary-box">
+                <h2>Train Stations</h2>
+                <ul>
+                    {% for station in itinerary.train_stations %}
+                    <li>{{ station }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+
+        <section class="itinerary-section" id="tips-section" data-bg="/static/images/landscape.jpg">
+            <div class="itinerary-box">
+                <h2>Travel Tips</h2>
+                <ul>
+                    {% for tip in itinerary.tips %}
+                    <li>{{ tip }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+
+        <section id="ending-section" data-bg="/static/images/cloud.png">
+            <div class="ending-message">
+                <h1>We hope you enjoy your trip - Trainline</h1>
+                <div id="train-animation"></div>
+                <div id="confetti"></div>
+            </div>
+            <div class="recommended-train">
+                <h2>Recommended Train:</h2>
+                <p>From {{ itinerary.chosen_train.origin }} to {{ itinerary.chosen_train.destination }}</p>
+                <p>Date: {{ itinerary.chosen_train.departure_date }}</p>
+                <p>Time: {{ itinerary.chosen_train.departure_time }}</p>
+                <p>Class: {{ itinerary.chosen_train.train_class }}</p>
+                <p>Price: £{{ itinerary.chosen_train.price }}</p>
+                <p>Reason: {{ itinerary.recommendation_reason }}</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
