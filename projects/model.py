@@ -17,7 +17,7 @@ def generate_recommendations(df_users, df_trains):
     df_users["key"] = 1
     df_trains["key"] = 1
 
-    # where the cross join actually happens with the data 
+    # where the cross join actually happens with the data (the data from the csv files being merged)
     df_merged = pd.merge(df_users, df_trains, on="key").drop(columns=["key"])
 
     

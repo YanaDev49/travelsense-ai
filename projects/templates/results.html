@@ -10,12 +10,12 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 <body class="results-body">
-    <!-- Greeting Section -->
+    
     <div id="greeting-section" class="floating">
         <h1 id="greeting-message" class="animated-fade-in">
             Happy Travels Ruby! Let’s generate your personalised itinerary:
         </h1>
-        <!-- Lottie Animation Container -->
+        
         <lottie-player
             src="/static/images/animation.json" 
             class="center"
@@ -28,10 +28,10 @@
         <button id="start-questionnaire" class="button-primary">Travel Questionnaire</button>
     </div>
 
-    <!-- Questionnaire Section -->
+    
     <div id="questionnaire-section" class="hidden">
         <form id="questionnaire-form" class="questionnaire-form" action="/recommend" method="POST">
-            <!-- Dynamic Questions will appear here -->
+            
         </form>
     </div>
 

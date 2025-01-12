@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
-        
+        // This function communicates with the python backend of my application by sending a POST request of the JSON data from the questionnaire to be processed for the itinerary.
         function submitToQuestionnaire() {
             console.log("Submitting JSON string to /recommend:", jsonString);
 
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 });
         }
 
-        showQuestion(currentQuestion); // Start the process with the first question.
+        showQuestion(currentQuestion); 
     }
 
     

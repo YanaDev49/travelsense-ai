@@ -13,7 +13,7 @@
 
 ![alt text](image-15.png)
 
-𝖳𝗈𝖽𝖺𝗒 𝖨 𝗁𝖺𝗏𝖾 𝗍𝗁𝖾 𝗁𝗈𝗇𝗈𝗎𝗋 𝗈𝖿 𝗉𝗋𝖾𝗌𝖾𝗇𝗍𝗂𝗇𝗀 𝗍𝗈 𝗒𝗈𝗎 𝖳𝗋𝖺𝗂𝗇𝗅𝗂𝗇𝖾'𝗌🚆 𝖭𝖾𝗐 𝖠𝖨 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖼𝖺𝗅𝗅𝖾𝖽 '𝖳𝖺𝗂𝗅𝗈𝗋𝖾𝖽𝖫𝗂𝗇𝖾 𝖠𝖨'🤖 , 𝖡𝗒 𝖸𝗈𝗎𝗋𝗌 𝗍𝗋𝗎𝗅𝗒 😊
+## 𝖳𝗈𝖽𝖺𝗒 𝖨 𝗁𝖺𝗏𝖾 𝗍𝗁𝖾 𝗁𝗈𝗇𝗈𝗎𝗋 𝗈𝖿 𝗉𝗋𝖾𝗌𝖾𝗇𝗍𝗂𝗇𝗀 𝗍𝗈 𝗒𝗈𝗎 𝖳𝗋𝖺𝗂𝗇𝗅𝗂𝗇𝖾'𝗌🚆 𝖭𝖾𝗐 𝖠𝖨 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖼𝖺𝗅𝗅𝖾𝖽 '𝖳𝖺𝗂𝗅𝗈𝗋𝖾𝖽𝖫𝗂𝗇𝖾 𝖠𝖨'🤖 , 𝖡𝗒 𝖸𝗈𝗎𝗋𝗌 𝗍𝗋𝗎𝗅𝗒 😊
 
 ## Feature Inspiration 💡
 
@@ -25,9 +25,23 @@ Tailored-line is a feature I developed, inspired by Trainline's Inspiration trav
 
 The idea came to me as I was reading Trainlines website: What if we could take this part of our service to the next level? By adding a personalised touch with new generational, cutting-edge technology, we could create something truly special. I wanted to design this feature in a way that would align with Trainline's core values - delivering data-driven solutions 📊, fostering inclusivity 🌈, and, most importantly, ensuring every customer enjoys their travel experience with simplicity and positivity 😊.
 
+#### (Take a look at how Tailored-line as a feature directly aligns with Trainline's moral values! ⬇️)
+
 ![alt text](image-2.png)
 
-At Trainline, we're dedicated to solving Problems to deliver pragmatical and simple solutions 📈
+##### While Developing this feature i wanted to think about how i could directly intertwine trainlines moral values as I understand the importance of these aspects when contributing to the company! 🤝
+
+**Innovation:** I was able to think big and explore the possibilities of how new technology would positively impact trainline software 🚀✨
+
+**Data-driven solutions:** customers are the heart of trainline and by having a feature that is specifically dedicated to a personalised approach emphasises how much we care about understanding individuals at every level. 📊❤️
+
+**Simplicity:** By having a feature that reduces travel stress for customers encourages simplicity with trainline services making it accomadatable for everyone. 🧳😊
+
+**Inclusion and Positivity:** Tailored-line is inclusive to all Trainline Customers due to its tailored preferences approach and overall creates a positive impact by showing our Trainliners that we care. 🌍🤗
+
+#
+
+#### At Trainline, we're dedicated to solving Problems to deliver pragmatical and simple solutions 📈
 
 ### So imagine this...  🤔
 
@@ -53,7 +67,7 @@ Then she can select the "Get Travel Recommendations" button to move on to the ne
 
 ![alt text](image-5.png)
 
- Ruby is the  greeted by our Tailored-line bot and is encouraged to take a quick travel questionnaire that will take some details about her trip 📝. These details will be used as data to generate her personalised itinerary based on factual information about her travel.🌍
+ Ruby is then greeted by our Tailored-line bot and is encouraged to take a quick travel questionnaire that will take some details about her trip 📝. These details will be used as data to generate her personalised itinerary based on factual information about her travel.🌍
 
 ![alt text](image-6.png)
 
@@ -96,7 +110,7 @@ This is a concise and clear representation of how Tailored-line AI will be exper
 Tailored-line isn’t just an additional feature for trainline services. It’s a system that allows our customers to have a fulfilling, personalised, and safe travel experience, making every trip enjoyable and seamless. 🚆
 
 Ultimately, people may not remember what a service did for them, but how the service made them feel and the lengths gone to create that impact (like it did for Ruby 😊).
-
+#
 # How Hypothesis-Driven Development became the backbone of Tailored-line 🔍🧩
 
 ![alt text](image-16.png)
@@ -113,7 +127,7 @@ For Tailored-line, having a **questionnaire** to gather data about users' **trav
 
 **[Link to study](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2020.00029/full)** 📎
 
-This research helped me foresee how **Tailored-line** could **positively impact Trainline’s customers**. By going the extra mile to ensure that each **itinerary recommendation** was **thoughtfully tailored** to individual preferences, the app wouldn’t just meet **user needs** but would create **moments of delight**. It became clear to me that **HDD** wasn’t just a method to improve **accuracy**—it was a way to embed **empathy** into development. ✨
+This research helped me foresee how **Tailored-line** could **positively impact Trainline’s customers**. By going the extra mile to ensure that each **itinerary recommendation** was **thoughtfully tailored** to individual preferences, the app wouldn’t just meet **user needs** but would create **moments of delight**. It became clear to me that **HDD** wasn’t just a method to improve **accuracy**, it was a way to embed **empathy** into development. ✨
 
 The process of applying **HDD** to **Tailored-line** has been a **transformative experience**. It taught me to think more **critically** about the **purpose** behind every feature I develop. It also showed me that by taking a **hypothesis-driven approach**, we can build more **meaningful products** that **resonate with users on a deeper level**. 💻
 
@@ -142,9 +156,12 @@ The process of applying **HDD** to **Tailored-line** has been a **transformative
 
 ![alt text](image-18.png)
 
-In essence, Tailored-line is a flask web application that uses a python module model to simulate the behaviour of a recomendation system/machine learning AI model. It uses data from the user questionnaire and stores this in the redis database so that it can be retrieved to generate the personalised itinerary for the user. 
+In essence, **Tailored-line** is a **Flask** web application that uses a **Python** module **model** to simulate the behaviour of a **recommendation system/machine learning AI model**. It uses **data** from the **user questionnaire** and stores this in the **Redis database** so that it can be retrieved to generate the **personalised itinerary** for the user.
 
-The python module uses pre-loaded CSV data files of user travel preferences and train schedules to apply logic, creating the perfect recommended travel options for their journey. The model joins the data from the CSV files with the data stored in redis from the questionnaire and generates a personalised itinerary for the user based on all this data. 
+The **Python** module uses **pre-loaded CSV data files** of **user travel preferences** and **train schedules** to apply **logic**, creating the perfect **recommended travel options** for their journey. The **model** joins the **data** from the **CSV files** with the **data** stored in **Redis** from the **questionnaire** and generates a **personalised itinerary** for the user based on all this **data**.
+
+
+ 
 
 ### Lets take a look at the main code functions of Tailored-line
 #
@@ -152,9 +169,10 @@ The python module uses pre-loaded CSV data files of user travel preferences and 
 
 ![alt text](image-19.png)
 
-This is the /recommend route of my application that handles the part of the application that takes in the user inputs as data in redis and uses a function to generate the users itinerary and load the data to do this.
+This is the **/recommend** route that handles the part of the application that takes in the **user inputs** as **data** in **Redis** and uses a function to generate the user's **itinerary** and load the **data** to do this.
 
-The /recommend route handles both GET and POST requests. The GET request is specifically for saving user questionnaire data in redis and the POST request is for displaying the itinerary within the function generate_itineray (). 
+The **/recommend** route handles both **GET** and **POST** requests. The **GET** request is specifically for saving **user questionnaire data** in **Redis** and the **POST** request is for displaying the **itinerary** within the function **generate_itinerary()**.
+ 
 
 # 
 
@@ -162,7 +180,7 @@ The /recommend route handles both GET and POST requests. The GET request is spec
 
 ![alt text](image-20.png)
 
-This is apart of my model.py code that shows the process of joining the travel preferences and train schedule CSV file data and applying logic to match key value pairs like is_student = student discount in a get_recommendations function. This matches travel preferences with correct values to create perfect tailored options. 
+This is apart of my **model.py** code that shows the process of joining the **travel preferences** and **train schedule CSV file data** and applying **logic** to match key-value pairs like **is_student = student discount** in a **get_recommendations** function. This matches **travel preferences** with correct **values** to create perfect **tailored options**.
 
 #
 
@@ -170,28 +188,74 @@ This is apart of my model.py code that shows the process of joining the travel p
 
 ![alt text](image-21.png)
 
-The function LoadQuestions() displays each question dynamically on the user page and checks for the right input data which is the expected response. 
+The function **LoadQuestions()** displays each question dynamically on the **user page** and checks for the right **input data** which is the **expected response**.
 
 ![alt text](image-22.png)
 
-The updateJsonString() funtion stores the user data inputs from the questionnaire as a JSON string.
+The **updateJsonString()** function stores the **user data inputs** from the **questionnaire** as a **JSON string**.
 
 ![alt text](image-23.png)
 
-The submitToQuestionnaire() function communicates with the python backend and sends the user inputs in the form of json data as a post request to the /recommend route.
+The **submitToQuestionnaire()** function communicates with the **Python backend** and sends the **user inputs** in the form of **JSON data** as a **POST request** to the **/recommend** route.
+#
+
+# What I learned from developing Tailored-line (Errors, Concepts, Engineering and more!)💡
+
+![alt text](image-24.png)
+
+### concepts:
+
+ Developing **Tailored-line** challenged me to think critically about making certain **decisions** such as what **database** to use to store **user inputs** and how to handle **user data** to make **predictions** for the **itinerary**.
+
+I thought about the **functionality** of my application and knew I would need a **database** that could quickly retrieve **data** in a **cached state**.
+
+In regards to the **Python module (model)** that I used to handle the **data**, I initially settled on researching different types of **machine learning models** to fit within this feature. However, I realised that understanding the **principles of machine learning** and how to **train a machine learning model** to understand and process **data** would require extensive **time and research**.
+
+The **Python module (model)** handles the **data** using **recommendation logic** to create the perfect **travel options** with **key-value pairs**. It **cross joins** data from **preloaded CSV files** along with **JSON data** stored in **Redis** with the **user inputs** from the **travel questionnaire**.
+
+#
+
+### Errors:
+
+ In my application, one of the purposes of my **JavaScript** code was to store **user inputs** as a **JSON string** so that it could communicate a **POST request** to the **backend** to send the **user input data** to generate the **itinerary**.
+
+However, there was an **error** in my **JavaScript** code where it was sending **multiple POST requests** to the **backend Python code**. This caused my **Python code** to have trouble processing all these **requests** and to understand which **request** was in **JSON form**.
+
+![alt text](image-25.png)
+
+To solve this problem, I had to add a **HTTP header** within my **Python code** to ensure that the **POST requests** were in **JSON form** before processing it for the **itinerary**. (The HTTP header is what makes sure the data is in JSON form so that the backend can process the request.)
+
 #
 # Local App Set up 🖥️
 
-### Build and run our containers 🐳
+### Build and run the containers 🐳
 ```
  docker-compose --build
 ```
-This command builds the images for my multi-container Trainline app as defined in the docker-compose.yml file. It reads the Dockerfile for each service, such as my Flask app and Redis, and creates the necessary images to run the application.
+This command builds the images for application as defined in the docker-compose.yml file. It reads the Dockerfile for each service, such as my Flask app and Redis, and creates the necessary images to run the application.
 ```                        
 docker-compose up
 ```
 This command builds the images and starts the containers in one step. In this app, if I’ve made changes to the Dockerfile or any dependencies, this command ensures the images are rebuilt before the app starts running.
+
+#
 ## How to Access The Application 🚀
 ### Open your browser and navigate to this web link after running the docker containers: http://127.0.0.1:5000/
 
 #### You will be greeted with a beautiful and sleek Welcome page Ready for you to experience Tailored-line 😊
+
+**Note:** I have specifically developed the code for the Travel Questionnaire to only accept specified inputs as a test run.
+
+> ## Here are the answers for each question
+>
+> ### 1. Where is your travel destination = 'milan'
+>
+> ### 2. Do you have dietry requirements = 'vegan' (select button)
+>
+> ### 3. Where is the area of your stay location (hotel)? = 'isola'
+>
+> ### 4. What do you prefer? = A. Sight seeing, Tourist attractions, museums (select button)
+
+### Navigate to http://127.0.0.1:5000/itinerary after finishing the Travel Questionnaire to view the web page with the travel itinerary displayed!
+#
+# Thank you! 🎊
