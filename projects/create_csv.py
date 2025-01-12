@@ -1,8 +1,5 @@
 import pandas as pd
 
-# -------------------------
-# 1) Define User Data
-# -------------------------
 USER_DATA = {
     "Trainliner": {
         "name": "Jane Doe",
@@ -25,9 +22,7 @@ USER_DATA = {
     }
 }
 
-# -------------------------
-# 2) Create travel_preferences.csv
-# -------------------------
+
 user_data_rows = []
 for user_id, user_info in USER_DATA.items():
     for trip in user_info["travel_history"]:
@@ -45,10 +40,6 @@ df_users = pd.DataFrame(user_data_rows)
 df_users.to_csv("travel_preferences.csv", index=False)
 print("travel_preferences.csv created successfully!")
 
-# -------------------------
-# 3) Define Train Schedule Data
-# -------------------------
-# Mock train schedule data from London to Milan
 train_schedule_data = [
     {"origin": "London Euston", "destination": "Milan Centrale", "departure_date": "2024-12-01", "departure_time": "08:00", "train_class": "Standard", "average_price": 120},
     {"origin": "London Euston", "destination": "Milan Centrale", "departure_date": "2024-12-01", "departure_time": "08:00", "train_class": "First Class", "average_price": 180},
@@ -61,8 +52,6 @@ train_schedule_data = [
     {"origin": "London St Pancras", "destination": "Milan Centrale", "departure_date": "2024-12-05", "departure_time": "11:30", "train_class": "Standard", "average_price": 140},
     {"origin": "London St Pancras", "destination": "Milan Centrale", "departure_date": "2024-12-05", "departure_time": "11:30", "train_class": "First Class", "average_price": 210},
 ]
-
-
 
 df_trains = pd.DataFrame(train_schedule_data)
 df_trains.to_csv("train_schedule.csv", index=False)

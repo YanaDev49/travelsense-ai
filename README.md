@@ -138,6 +138,48 @@ The process of applying **HDD** to **Tailored-line** has been a **transformative
 
 # 
 
+# Key parts of my code and explanation 📡💻
+
+![alt text](image-18.png)
+
+In essence, Tailored-line is a flask web application that uses a python module model to simulate the behaviour of a recomendation system/machine learning AI model. It uses data from the user questionnaire and stores this in the redis database so that it can be retrieved to generate the personalised itinerary for the user. 
+
+The python module uses pre-loaded CSV data files of user travel preferences and train schedules to apply logic, creating the perfect recommended travel options for their journey. The model joins the data from the CSV files with the data stored in redis from the questionnaire and generates a personalised itinerary for the user based on all this data. 
+
+### Lets take a look at the main code functions of Tailored-line
+#
+#### app.py code
+
+![alt text](image-19.png)
+
+This is the /recommend route of my application that handles the part of the application that takes in the user inputs as data in redis and uses a function to generate the users itinerary and load the data to do this.
+
+The /recommend route handles both GET and POST requests. The GET request is specifically for saving user questionnaire data in redis and the POST request is for displaying the itinerary within the function generate_itineray (). 
+
+# 
+
+#### model.py code
+
+![alt text](image-20.png)
+
+This is apart of my model.py code that shows the process of joining the travel preferences and train schedule CSV file data and applying logic to match key value pairs like is_student = student discount in a get_recommendations function. This matches travel preferences with correct values to create perfect tailored options. 
+
+#
+
+#### Javascript code 
+
+![alt text](image-21.png)
+
+The function LoadQuestions() displays each question dynamically on the user page and checks for the right input data which is the expected response. 
+
+![alt text](image-22.png)
+
+The updateJsonString() funtion stores the user data inputs from the questionnaire as a JSON string.
+
+![alt text](image-23.png)
+
+The submitToQuestionnaire() function communicates with the python backend and sends the user inputs in the form of json data as a post request to the /recommend route.
+#
 # Local App Set up 🖥️
 
 ### Build and run our containers 🐳

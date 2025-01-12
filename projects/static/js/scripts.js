@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const questionnaireSection = document.getElementById("questionnaire-section");
     const startButton = document.getElementById("start-questionnaire");
 
-    // We'll store responses in a simple JSON string that grows as questions are answered.
+    // questionnaire input data from user will be stored as JSON string.
     let jsonString = "{}";
 
-    // Starts the questionnaire when the start button is clicked.
+    
     startButton?.addEventListener("click", () => {
         console.log("Starting questionnaire...");
         greetingSection?.classList.add("hidden");
@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         loadQuestions();
     });
 
-    // Manages loading and displaying each question from the list.
+    
     function loadQuestions() {
         const form = document.getElementById("questionnaire-form");
 
@@ -39,16 +39,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         let currentQuestion = 0;
 
-        // Updates the JSON string with the latest response.
+        
         function updateJsonString(key, value) {
             const json = JSON.parse(jsonString);
             json[key] = value;
             jsonString = JSON.stringify(json);
         }
 
-        // Displays a single question and handles its input logic.
+        
         function showQuestion(index) {
-            form.innerHTML = ""; // Clear out the previous question
+            form.innerHTML = ""; 
             const question = questions[index];
             const questionText = document.createElement("h3");
             questionText.textContent = question.question;
@@ -91,33 +91,33 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         }
 
-        // Decides whether to show the next question or send the data.
+        
         function handleNextQuestion() {
             if (currentQuestion < questions.length) {
                 showQuestion(currentQuestion);
             } else {
-                submitToQuestionnaire(); // When it's all done it triggers this function.
+                submitToQuestionnaire(); 
             }
         }
 
-        // sends JSON string to the server when the questionnaire's done.
+        
         function submitToQuestionnaire() {
             console.log("Submitting JSON string to /recommend:", jsonString);
 
             const submitButton = document.querySelector("#submit-button");
-            if (submitButton) submitButton.disabled = true; // Disable the button to prevent spamming.
+            if (submitButton) submitButton.disabled = true; 
 
             fetch("/recommend", {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json", // Set the content type to JSON.
+                    "Content-Type": "application/json", 
                 },
                 body: jsonString,
             })
                 .then((response) => {
                     if (response.ok) {
                         console.log("Data submitted successfully! Flask will handle redirection.");
-                        // Let Flask deal with redirection
+                        
                     } else {
                         console.error("Failed to submit data. Status:", response.status);
                     }
@@ -127,14 +127,14 @@ document.addEventListener("DOMContentLoaded", () => {
                     alert(`Error: ${error.message}`);
                 })
                 .finally(() => {
-                    if (submitButton) submitButton.disabled = false; // Re-enable button once done.
+                    if (submitButton) submitButton.disabled = false; 
                 });
         }
 
         showQuestion(currentQuestion); // Start the process with the first question.
     }
 
-    // Adds background images to sections if a data-bg attribute is set.
+    
     const bgSections = document.querySelectorAll("[data-bg]");
     bgSections.forEach((section) => {
         const bgImage = section.getAttribute("data-bg");

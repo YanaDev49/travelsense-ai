@@ -1,9 +1,9 @@
 body {
     background: linear-gradient(to bottom, #007F5C, #A3D9C5);
     font-family: Sans-serif, Verdana;
-    background-attachment: fixed; /* Ensures gradient stays fixed on scroll */
-    background-repeat: no-repeat; /* Prevent tiling */
-    background-size: cover; /* Ensure the gradient covers the whole page */
+    background-attachment: fixed; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
     margin: 100;
     padding: 10;
     text-align: center;
@@ -42,7 +42,7 @@ form input {
 }
 
 form button {
-    background-color: #04AA6D; /* Green */
+    background-color: #04AA6D; 
     border: none;
     color: white;
     padding: 16px 32px;
@@ -99,25 +99,12 @@ img {
     padding: 20px 10px;
   }
   
-  /* .navbar {
-    background-color: white;
-    padding: 1rem;
-    text-align: left;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .navbar h1 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #333;
-  } */
-
   body {
     margin: 0;
     font-family: Arial, sans-serif;
   }
 
-  /* Navbar Container */
+  
   .navbar {
     background-color: white;
     display: flex;
@@ -132,7 +119,7 @@ img {
     z-index: 1000;
   }
 
-  /* Logo Section */
+  
   .logo {
     display: flex;
     flex-direction: column;
@@ -156,7 +143,7 @@ img {
     font-weight: bold;
   }
 
-  /* Navigation Links */
+  
   .nav-links {
     margin-left: auto;
     display: flex;
@@ -174,15 +161,15 @@ img {
 
   .nav-links a:hover {
     text-decoration: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
-    border-color: rgba(0, 0, 0, 0.1); /* Optional: Add a faint border */
-    cursor: pointer; /* Pointer cursor for hover effect */
-    border-radius: 1px; /* Optional: Rounded corners */
-    background-color: #f0eaea; /* Optional: Slight background color change */
-    color: #333; /* Optional: Change text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-color: rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+    border-radius: 1px; 
+    background-color: #f0eaea; 
+    color: #333; 
   }
 
-  /* Sign In and Menu */
+  
   .nav-actions {
     display: flex;
     align-items: center;
@@ -220,7 +207,7 @@ img {
     height:30px;
 }
 
-/* styles.css */
+
 
 .results-body {
   background-image: url("/static/images/blue.jpg");
@@ -326,7 +313,7 @@ h3 {
   font-size: 18px;
 }
 
-/* General Styles for the Itinerary Page */
+
 body.itinerary-body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -355,13 +342,13 @@ body.itinerary-body {
   background-position: center;
 }
 
-/* Parallax Backgrounds */
+/* Parallax backgrounds for trainline itinerary.html page */
 .itinerary-section[data-bg],
 #ending-section[data-bg] {
   background-image: url('');
 }
 
-/* JavaScript will dynamically set the background image based on data-bg attribute */
+
 .itinerary-box {
   background: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
@@ -372,7 +359,7 @@ body.itinerary-body {
   animation: floatIn 2s forwards;
 }
 
-/* Float-in animation for content */
+/* Float-in animation design for content of the itinerary on itinerary.html */
 @keyframes floatIn {
   0% {
       opacity: 0;
@@ -390,7 +377,7 @@ body.itinerary-body {
   font-size: 2rem;
 }
 
-/* Train Animation */
+
 #train-animation {
   width: 200px;
   height: 100px;
@@ -432,14 +419,14 @@ body.itinerary-body {
   align-items: center;
   padding: 20px;
   margin: 20px auto;
-  color: black; /* Change text color to black */
-  text-shadow: none; /* Remove text shadow for better contrast */
-  font-size: 2rem; /* Optional: Ensure font size is appropriate */
-  background: rgba(52, 207, 176, 0.9); /* White box with slight transparency */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  width: 80%; /* Take up 80% of the screen width */
-  text-align: center; /* Center the text */
-  animation: floatIn 1.5s ease-out; /* Smooth entry animation */
+  color: black; 
+  text-shadow: none; 
+  font-size: 2rem; 
+  background: rgba(52, 207, 176, 0.9); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  width: 80%; 
+  text-align: center; 
+  animation: floatIn 1.5s ease-out; 
 }
 
