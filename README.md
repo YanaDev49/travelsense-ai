@@ -231,6 +231,34 @@ However, there was an **error** in my **JavaScript** code where it was sending *
 To solve this problem, I had to add a **HTTP header** within my **Python code** to ensure that the **POST requests** were in **JSON form** before processing it for the **itinerary**. (The HTTP header is what makes sure the data is in JSON form so that the backend can process the request.)
 
 #
+# Improvements I could have made with Tailored-line ✅📈
+
+### Implementing realtime machine learning model:
+
+ One of the key **improvements** I could implement with **Tailored-line** is using an actual **machine learning model** to present a **realtime experience** for the application.
+
+While the **Python module (model)** simulates an **AI experience**, having a real **trained model** to perform the **function** of the application improves overall **user experience** and **organisation** of the **code**.
+
+
+### Improving adaptability of code:
+
+ When thinking about my **application** in a **production** sense, I think I could have improved my **code** by developing it to **receive** all different types of **user inputs**.
+
+For example, the current **code** in my **application** is specifically developed to represent our **Trainliner 'Ruby'**, with **pre-configured travel data** and **inputs** from her **questionnaire**. However, this **application** will need to be open to **receiving** all different types of **user inputs** from different **user destinations**, **dietary requirements**, to **travel preferences**.
+
+This is what will make **Tailored-line** **inclusive** to all **users**, by adapting the **code** to be **receptive** to all **user inputs**.
+
+### Thinking about scalability:
+
+ Although I thought carefully about each and every **technology** I used in my **application**, thinking about **optimisation** and **scalability** would have improved the overall **system design** and **architecture**.
+
+For example, understanding whether I would need to **vertically** or **horizontally scale** my **application**. **Tailored-line** is a feature intended to be used by **billions of Trainline users** simultaneously, meaning that **horizontal scaling** would be something I would need to think about (adding more **servers** to my **machine** to handle **user traffic**).
+
+Critically thinking about how much **data traffic** would be coming in and out of the **application** is crucial as well, and therefore applying concepts such as **database replication** would need to be considered additionally.
+
+
+
+#
 # Local App Set up 🖥️
 
 ### Build and run the containers 🐳
