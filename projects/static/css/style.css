@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #007F5C, #A3D9C5);
+    background: linear-gradient(to bottom, hsl(36, 61%, 69%), #e0b0b7);
     font-family: Sans-serif, Verdana;
     background-attachment: fixed; 
     background-repeat: no-repeat; 
