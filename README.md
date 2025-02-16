@@ -1,4 +1,4 @@
-# 𝖳𝖺𝗂𝗅𝗈𝗋𝖾𝖽-𝗅𝗂𝗇𝖾 𝖠𝖨 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖡𝗒 𝖠𝖺𝗅𝗂𝗒𝖺𝗇𝖺 𝖠𝖽𝗈𝗅𝖾𝗒 𝖬𝗂𝗇𝗀𝗅𝖾 - 𝖳𝗋𝖺𝗂𝗇𝗅𝗂𝗇𝖾 ![Build Passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
+# 𝖳ravelSense 𝖠𝖨 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖡𝗒 𝖠𝖺𝗅𝗂𝗒𝖺𝗇𝖺 𝖠𝖽𝗈𝗅𝖾𝗒 𝖬𝗂𝗇𝗀𝗅𝖾 - 𝖳𝗋𝖺𝗂𝗇𝗅𝗂𝗇𝖾 ![Build Passing](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![Flask](https://img.shields.io/pypi/v/Flask?label=Flask&style=flat-square&logo=flask&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-InMemory%20Database-red?style=flat-square)
 ![Model](https://img.shields.io/badge/Model-v1.0-0078D4?style=flat-square&logo=codeforces&logoColor=white)
@@ -11,9 +11,9 @@
 
 
 
-![alt text](image-15.png)
 
-## 𝖳𝗈𝖽𝖺𝗒 𝖨 𝗁𝖺𝗏𝖾 𝗍𝗁𝖾 𝗁𝗈𝗇𝗈𝗎𝗋 𝗈𝖿 𝗉𝗋𝖾𝗌𝖾𝗇𝗍𝗂𝗇𝗀 𝗍𝗈 𝗒𝗈𝗎 𝖳𝗋𝖺𝗂𝗇𝗅𝗂𝗇𝖾'𝗌🚆 𝖭𝖾𝗐 𝖠𝖨 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖼𝖺𝗅𝗅𝖾𝖽 '𝖳𝖺𝗂𝗅𝗈𝗋𝖾𝖽𝖫𝗂𝗇𝖾 𝖠𝖨'🤖 , 𝖡𝗒 𝖸𝗈𝗎𝗋𝗌 𝗍𝗋𝗎𝗅𝗒 😊
+
+## 𝖳𝗈𝖽𝖺𝗒 𝖨 𝗁𝖺𝗏𝖾 𝗍𝗁𝖾 𝗁𝗈𝗇𝗈𝗎𝗋 𝗈𝖿 𝗉𝗋𝖾𝗌𝖾𝗇𝗍𝗂𝗇𝗀 𝗍𝗈 𝗒𝗈𝗎 A 𝖭𝖾𝗐 𝖠𝖨 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖼𝖺𝗅𝗅𝖾𝖽 '𝖳ravelSense AI'🤖 , 𝖡𝗒 𝖸𝗈𝗎𝗋𝗌 𝗍𝗋𝗎𝗅𝗒 😊
 
 ## Feature Inspiration 💡
 
