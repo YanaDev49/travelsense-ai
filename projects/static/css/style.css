@@ -210,7 +210,7 @@ img {
 
 
 .results-body {
-  background-image: url("/static/images/blue.jpg");
+  background-image: url("/static/images/maps.jpg");
   height: 100vh;
   display: flex;
   flex-direction: column;

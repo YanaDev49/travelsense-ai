@@ -56,18 +56,18 @@
             class="center"
             background="transparent"
             speed="1"
-            style="width: 350px; height: 350px;"
+            style="width: 250px; height: 250px;"
             autoplay
             loop>
-        </lottie-player>      
+        </lottie-player> 
+        <main>
+          <form action="/recommend" method="GET">
+              <label for="user_id">Enter Your User ID:</label>
+              <input type="text" id="user_id" name="user_id" required>
+              <button type="submit">Get travel Recommendations</button>
+          </form>
+      </main>     
     </header>
-    <main>
-        <form action="/recommend" method="GET">
-            <label for="user_id">Enter Your User ID:</label>
-            <input type="text" id="user_id" name="user_id" required>
-            <button type="submit">Get travel Recommendations</button>
-        </form>
-    </main>
 </body>
 </html>
 

@@ -13,26 +13,22 @@
     
     <div id="greeting-section" class="floating">
         <h1 id="greeting-message" class="animated-fade-in">
-            Happy Travels Ruby! Let’s generate your personalised itinerary:
+            Happy Travels Explorer! Let’s generate your personalised itinerary:
         </h1>
-        
         <lottie-player
-            src="/static/images/animation.json" 
+            src="/static/images/map.json" 
             class="center"
             background="transparent"
             speed="1"
-            style="width: 350px; height: 350px;"
+            style="width: 450px; height: 450px;"
             autoplay
             loop>
         </lottie-player>
         <button id="start-questionnaire" class="button-primary">Travel Questionnaire</button>
     </div>
-
-    
-    <div id="questionnaire-section" class="hidden">
+<div id="questionnaire-section" class="hidden">
         <form id="questionnaire-form" class="questionnaire-form" action="/recommend" method="POST">
-            
-        </form>
+            </form>
     </div>
 
     <script>
