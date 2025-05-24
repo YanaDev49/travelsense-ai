@@ -9,17 +9,25 @@
 ![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ## Welcome to 𝖳ravelSense AI 🤖
+![Screenshot 2025-05-24 170214](https://github.com/user-attachments/assets/1d9715bd-3012-4f31-9c6c-ae412e0f9583)
+
 
 ## Feature Inspiration 💡
 
 ### Travel Sense AI was born out of my deep passion for travel and a genuine curiosity for tackling everyday challenges.
 #### If you're anything like me and absolutely love exploring new places, then you’ll know just how much of a headache planning can be. Hotels, activities, restaurants; the list goes on. It can easily become overwhelming and chaotic, especially if you haven’t sorted it all months in advance. But imagine having an AI model that takes care of all of that for you, tailored entirely around your preferences, from dietary requirements to specific interests and personal needs. If that’s not the ultimate travel solution, then honestly, what is?
 
+![Screenshot 2025-05-24 181334](https://github.com/user-attachments/assets/a8d4f36b-3325-42e3-937e-41d6629ca65e)
+
+
 Software development often involves a degree of **uncertainty**. Developers strive to solve problems and build features that meet user needs, but it’s all too easy to fall into the trap of building for **assumptions** rather than facts, which is why I actively researched the impact of having a person centred approach for this AI model and why it solves a universal problem. 🔍
 
  A study titled *"Validation of User Preferences and Effects of Personalized Gamification"* found that **software features reflecting user preferences significantly improve engagement and task performance**. Participants using **personalised settings** reported a more enjoyable experience and showed higher interaction rates. 📊
 
 For Travel sense AI, having a **questionnaire** to gather data about users' **travel preferences** and syncing itineraries with their **past travel history** and additional present data can improve **engagement**. This approach enhances the **relevance** of travel recommendations and creates a more **seamless**, **personalised travel experience**. ✈️
+
+![Screenshot 2025-05-24 181437](https://github.com/user-attachments/assets/0a9e6f6c-b884-4d7c-ae08-43f592fdda84)
+
 
 **[Link to study](https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2020.00029/full)** 📎
 
@@ -29,7 +37,10 @@ This research helped me foresee how **Travel Sense AI** could positively impact 
 ### Now, Lets dive into the technical Components of Travel Sense AI and how the technologies I used assemble together to create this solution!
 #
 
-# 📝 Technologies I used for Tailored-line 📋
+# 📝 Technologies I used for Travel-Sense 📋
+
+![Screenshot 2025-05-24 181503](https://github.com/user-attachments/assets/c9312ad8-9f86-48cd-8a29-1298204b638e)
+
 
 ### These are the core technologies used to build and run the application itself:
 
@@ -49,6 +60,9 @@ This research helped me foresee how **Travel Sense AI** could positively impact 
 
 
 # What I learned from developing Tailored-line (Errors, Concepts, Engineering and more!)💡
+
+![Screenshot 2025-05-24 181620](https://github.com/user-attachments/assets/e6f5b0bc-6561-4e94-a953-0d5a8f66fd3a)
+
 
 ### concepts:
 
@@ -71,7 +85,7 @@ However, there was an **error** in my **JavaScript** code where it was sending *
 To solve this problem, I had to add a **HTTP header** within my **Python code** to ensure that the **POST requests** were in **JSON form** before processing it for the **itinerary**. (The HTTP header is what makes sure the data is in JSON form so that the backend can process the request.)
 
 #
-# Improvements I could have made with Travel Sense Ai ✅📈
+# Improvements I could have made with Travel Sense  ✅📈
 
 ### Implementing realtime machine learning model:
 
